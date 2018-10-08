@@ -3,5 +3,7 @@ node default {
     ensure  => file,
     content => 'This is a readme',
     owner   => 'root',
+    group   => 'root',
+    mode    => '700',
   }
 }
