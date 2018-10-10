@@ -5,6 +5,6 @@ node default {
     owner   => 'root',
   }
 }
-node 'master.puppet.vm' {
+node 'osboxes.home' {
   include role::master_server
 }
