@@ -5,7 +5,7 @@ node default {
     owner   => 'root',
   }
 }
-node 'puppet' {
+node 'osboxes.home' {
   include role::master_server
 }
 node /^web/ { 
