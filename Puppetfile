@@ -3,4 +3,5 @@ mod 'puppetlabs-stdlib', '4.24.0'
 mod 'puppetlabs-apt', '3.0.0'
 mod 'stahnma-epel', '1.3.0'
 mod 'puppetlabs-concat', '4.1.1'
-
+mod 'garethr-docker', '5.3.0'
+mod 'pltraining-dockeragent', '0.0.16'
